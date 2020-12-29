@@ -1,6 +1,6 @@
 {
-  "name": "@plh/utils",
-  "version": "0.1.2",
+  "name": "@plhjs/utils",
+  "version": "0.1.1",
   "outputName": "index",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
@@ -20,7 +20,8 @@
     "test": "npm run flow && jest",
     "flow": "flow check",
     "serve": "serve -p 8080",
-    "release": "standard-version"
+    "release": "standard-version",
+    "pub": "npm publish --access public"
   },
   "files": [
     "src",
@@ -28,7 +29,7 @@
   ],
   "private": false,
   "dependencies": {},
-  "deependencies": {
+  "devDependencies": {
     "@commitlint/cli": "^5.2.8",
     "@commitlint/config-conventional": "^5.2.3",
     "babel-core": "^6.26.0",
